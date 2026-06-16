@@ -63,51 +63,79 @@ document.addEventListener('DOMContentLoaded', () => {
   (function initSpeakers() {
     const speakerData = {
 	  1: {
-        name: 'Mr. Shou-Tao Chen',
+        name: 'James C. F. Huang',
         title: 'President, China Steel Corporation (CSC)',
         img: './assets/image/speaker-1.png',
         bio: `<p>With over 30 years of experience in the steel industry, he began his career in engineering and participated in CSC’s Phase III and IV expansions, as well as the planning and construction of Dragon Steel’s hot rolling mill. He later served as Plant Manager of Rolling Mill No. 2 and Deputy Vice President of Production.</p>
 		<p>With extensive expertise in engineering planning and production management, he is committed to enhancing manufacturing capabilities and advancing low-carbon and sustainability initiatives, strengthening CSC’s global competitiveness.</p>`,
       },
       2: {
-        name: 'Mr. Ed Smith',
-        title: 'President, National Fastener Distributors Association (NFDA)',
+        name: 'Dr. Marc Succi',
+        title: 'Founder & Executive Director, Mass General Brigham MESH Incubator and Associate Professor of Radiology, Harvard Medical School',
         img: './assets/image/speaker-2.png',
         bio: `<p>Ed Smith has spent the past 30 years in the fastener industry working across distribution, sales, and procurement — most recently as part of the Procurement team at Wurth Industry USA.</p>
 		<p>In 2025, Ed took on the role of President of the National Fastener Distributors Association, where he’s focused on helping members navigate an uncertain market and building a stronger, more connected industry for the next generation.</p>`,
       },
 	  3: {
-        name: 'Mr. Chanin Khaochan',
-        title: 'President, Thai Subcontracting Promotion Association (Thai Subcon)',
+        name: 'Jan Beger',
+        title: 'GE Global Head of AI Advocacy',
         img: './assets/image/speaker-3.png',
         bio: `<p>Former Deputy Secretary General of Thailand BOI, Mr. Chanin Khaochan has extensive experience in global investment and industrial development.</p>
 		<p>He initiated SUBCON Thailand to connect international markets and support SME growth, and continues to serve as an investment advisor.</p>`,
       },
       4: {
-        name: 'Mr. Andrew Lee',
-        title: 'Managing Director, PricewaterhouseCoopers (PwC) Taiwan',
+        name: 'Dr. Shih-An Chen',
+        title: 'Honorary Superintendent, Taichung Veterans General Hospital',
         img: './assets/image/speaker-4.png',
         bio: `<p>Specialized in greenhouse gas inventory, emissions reduction, and carbon footprint verification, with qualifications including ISO 14064 and ISO 14067, and experience in multiple ISO management system audits.</p> 
 		<p>Previously served as Deputy General Manager of Bureau Veritas Certification Taiwan, with extensive experience in international certification and sustainability practices.</p>`,
       },
       5: {
-        name: 'Ms. Kristy Chi',
-        title: 'Senior Industry Consultant, Metal Industries Research & Development Centre',
+        name: 'Dr. Mai-Szu Wu',
+        title: 'President, Taipei Medical University (TMU)',
         img: './assets/image/speaker-5.png',
         bio: `<p>With nearly 20 years of experience in industry analysis and policy research, she serves as an Industry Consultant at MIRDC, focusing on Taiwan’s fastener industry, smart manufacturing, and low-carbon transformation.</p>
 		<p>She previously worked at a Washington, D.C. think tank and was selected for Japan’s IDE-JETRO program. She has published over 100 articles and delivered numerous keynote speeches on industry trends and policy insights.</p>`,
       },
       6: {
-        name: 'Mr. Zephyr Chang',
-        title: 'Chairman, SPEC Products Corp.',
+        name: 'Dr. Chen, Chien-Tzung',
+        title: 'Superintendent, Linkou Chang Gung Memorial Hospital',
         img: './assets/image/speaker-6.png',
         bio: `<p>With over 30 years in the fastener industry, he founded Yow Chern in 2001 and led its transformation into a manufacturer of automotive and industrial specialty fasteners, serving supply chains across Europe, the U.S., and Japan. The company was successfully listed in 2025.</p>
 		<p>Yow Chern continues to advance automation and smart manufacturing, achieving IATF 16949 and ISO 14001 certifications, and developing the TEC Washer solution for high-end applications, strengthening Taiwan’s global competitiveness.</p>`,
       },
       7: {
-        name: 'Mr. Alvin Lin',
-        title: 'President, National Aerospace Fasteners Corporation (NAFCO)',
+        name: 'Chao-Yuan (Joe) Yeh',
+        title: 'MD, PhD, Founder and CEO, aetherAI',
         img: './assets/image/speaker-7.png',
+        bio: `<p>With extensive experience in the aerospace fastener industry, he leads the transition from traditional manufacturing to global operations, strengthening partnerships with aerospace customers in Europe, the United States, and Asia.</p> 
+		<p>Focusing on future technology and talent development, he promotes organizational transformation and enhances competitiveness, reinforcing Taiwan’s position in the global aerospace supply chain.</p>`,
+      },
+      8: {
+        name: 'Dr. Wen-Han Chang',
+        title: 'Superintendent of MacKay Memorial Hospital',
+        img: './assets/image/speaker-8.png',
+        bio: `<p>With extensive experience in the aerospace fastener industry, he leads the transition from traditional manufacturing to global operations, strengthening partnerships with aerospace customers in Europe, the United States, and Asia.</p> 
+		<p>Focusing on future technology and talent development, he promotes organizational transformation and enhances competitiveness, reinforcing Taiwan’s position in the global aerospace supply chain.</p>`,
+      },
+      9: {
+        name: 'Allen Chia-En Lien',
+        title: 'Chairman & Chief Executive Officer, Acer Medical ',
+        img: './assets/image/speaker-9.png',
+        bio: `<p>With extensive experience in the aerospace fastener industry, he leads the transition from traditional manufacturing to global operations, strengthening partnerships with aerospace customers in Europe, the United States, and Asia.</p> 
+		<p>Focusing on future technology and talent development, he promotes organizational transformation and enhances competitiveness, reinforcing Taiwan’s position in the global aerospace supply chain.</p>`,
+      },
+      10: {
+        name: 'Julie Chen',
+        title: 'Executive Vice President, Business Development & Operation Group, Medimaging Integrated Solution Inc.',
+        img: './assets/image/speaker-10.png',
+        bio: `<p>With extensive experience in the aerospace fastener industry, he leads the transition from traditional manufacturing to global operations, strengthening partnerships with aerospace customers in Europe, the United States, and Asia.</p> 
+		<p>Focusing on future technology and talent development, he promotes organizational transformation and enhances competitiveness, reinforcing Taiwan’s position in the global aerospace supply chain.</p>`,
+      },
+      11: {
+        name: 'James C. L. Lee',
+        title: 'Chief Operating Officer (COO), V5med Inc.',
+        img: './assets/image/speaker-11.png',
         bio: `<p>With extensive experience in the aerospace fastener industry, he leads the transition from traditional manufacturing to global operations, strengthening partnerships with aerospace customers in Europe, the United States, and Asia.</p> 
 		<p>Focusing on future technology and talent development, he promotes organizational transformation and enhances competitiveness, reinforcing Taiwan’s position in the global aerospace supply chain.</p>`,
       },

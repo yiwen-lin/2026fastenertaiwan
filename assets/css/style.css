@@ -1,7 +1,7 @@
 :root {
-  --primary: #021f26;
-  --dark-bg: #021f26;
-  --darker-bg: #021f26;
+  --primary: #0C1531;
+  --dark-bg: #0C1531;
+  --darker-bg: #0C1531;
   --card-bg: #0d2b27;
   --text-light: #e0f0ee;
   --text-muted: #7ab8b0;
@@ -129,8 +129,8 @@ main {
 
 .btn-primary {
   display: inline-block;
-  background: #021f26;
-  color: #021f26;
+  background: #0C1531;
+  color: #0C1531;
   font-weight: 700;
   font-size: 15px;
   padding: 14px 36px;
@@ -167,7 +167,7 @@ nav .nav-inner {
     justify-content: space-between;
     padding: 14px 20px;
     height: 64px;
-    background: #021f26;
+    background: #0C1531;
   }
 }
 nav .logo {
@@ -265,7 +265,7 @@ nav .hamburger.is-open span:nth-child(3) {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #021f26;
+    background: #0C1531;
     z-index: 9000;
     overflow-y: auto;
     transform: translateX(100%);
@@ -313,7 +313,7 @@ nav .hamburger.is-open span:nth-child(3) {
 
 section.index {
   min-height: 100vh;
-  background: radial-gradient(ellipse at 60% 40%, #0d3b30 0%, #021f26 70%);
+  background: radial-gradient(ellipse at 60% 40%, #0d3b30 0%, #0C1531 70%);
   display: flex;
   align-items: center;
   padding: 100px 30px 60px;
@@ -400,21 +400,23 @@ section.index .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  align-items: center;
+  align-items: center
   gap: 40px;
   text-align: left;
 }
 @media (max-width: 500px) {
   section.index .container {
-    align-items: flex-start;
+    align-items: flex-start;   
   }
 }
 section.index .container > div {
   width: 50%;
+  margin-left: auto;
 }
 @media (max-width: 500px) {
   section.index .container > div {
     width: 100%;
+    margin-left: 0;
   }
 }
 section.index .logo {
@@ -442,13 +444,13 @@ section.index .hero-title-2 {
 }
 @media (max-width: 501px) {
   section.index .hero-title-2 {
-    margin-top: 72%;
+    margin-top: 10%;
     width: 100%;
   }
 }
 @media (max-width: 405px) {
   section.index .hero-title-2 {
-    margin-top: 96%;
+    margin-top: 8%;
   }
 }
 section.index .hero-title-3 {
@@ -466,7 +468,7 @@ section.index .hero-title-4 {
 }
 
 section.foreword {
-  background: #021f26;
+  background: #0C1531;
   padding: 150px 30px 100px;
   position: relative;
   overflow: visible;
@@ -547,12 +549,12 @@ section.foreword .item p {
   }
 }
 section.foreword .item p strong {
-  color: #021f26;
+  color: #0C1531;
   line-height: 27px;
 }
 
 section.highlights {
-  background: #021f26;
+  background: #0C1531;
   padding: 150px 30px 100px;
   position: relative;
   overflow: visible;
@@ -604,7 +606,7 @@ section.highlights .highlights-grid {
   }
 }
 section.highlights .highlight-card {
-  background: rgb(8, 28, 36);
+  background: rgb(22 7 40);
   border: 1px solid #ffffff;
   border-radius: 12px;
   padding: 50px 24px 65px;
@@ -672,7 +674,7 @@ section.speakers {
   overflow: visible;
   padding: 150px 30px 100px;
   position: relative;
-  background: #021f26;
+  background: #0C1531;
   z-index: 2;
 }
 @media (max-width: 991px) {
@@ -854,7 +856,7 @@ section.speakers .slick-next {
 
 section.agenda {
   font-family: "Inter", "Noto Sans TC", sans-serif;
-  background: linear-gradient(180deg, #024649 0%, #000b0f 100%);
+  background: linear-gradient(180deg, #402E66 0%, #220b56 100%);
   padding: 150px 0 250px;
 }
 @media (max-width: 500px) {
@@ -1051,7 +1053,7 @@ section.agenda .speaker {
 .location-registration-wrap {
   position: relative;
   z-index: 3;
-  background-color: #000b0f;
+  background-color: #0C1531;
 }
 .location-registration-wrap .location-registration-bg {
   position: absolute;
@@ -1337,7 +1339,7 @@ section.registration .campaign-form-wrap select:focus {
   outline: none;
 }
 section.registration .campaign-form-wrap select option {
-  background: #021f26;
+  background: #0C1531;
   color: #d9d9d9;
 }
 section.registration .campaign-form-wrap .checkbox-item {
@@ -1476,7 +1478,7 @@ section.registration .campaign-form-wrap button.primary {
   display: block;
   margin: 0 auto;
   background: #fff;
-  color: #021f26;
+  color: #0C1531;
   font-weight: 700;
   font-size: 19px;
   line-height: 1;
@@ -1522,7 +1524,7 @@ section.registration .campaign-form-wrap .campaign-popup.active {
   display: flex;
 }
 section.registration .campaign-form-wrap .campaign-popup .popup-box {
-  background-color: #021f26;
+  background-color: #0C1531;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   padding: 32px 24px;
@@ -1561,7 +1563,7 @@ section.registration .campaign-form-wrap .campaign-popup .popup-box .popup-conte
 }
 
 footer {
-  background: #012023;
+  background: #0e0226;
   padding: 73px 151px 60px 71px;
 }
 @media (max-width: 991px) {
