@@ -1556,6 +1556,30 @@ section.registration .campaign-form-wrap .campaign-popup .popup-box .popup-conte
   color: #fff;
   text-decoration: underline;
 }
+section.registration .campaign-form-wrap .campaign-popup .popup-box {
+  position: relative;
+}
+section.registration .campaign-form-wrap .campaign-popup .popup-box .popup-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: color 0.2s, background 0.2s;
+}
+section.registration .campaign-form-wrap .campaign-popup .popup-box .popup-close:hover {
+  color: #fff;
+  background: rgba(255, 255, 255, 0.1);
+}
 
 footer {
   background: #012023;

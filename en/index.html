@@ -560,7 +560,7 @@
                             <!-- <div class="required-text">*為必填欄位</div> -->
                             <div class="campaign-form">
                                 <div class="form-item">
-                                    <div class="item-title required">Name*</div>
+                                    <div class="item-title required">Name</div>
                                     <div class="input-wrap">
                                         <input name="last_name" id="last_name" type="text" placeholder=""
                                             data-q_id="last_name" data-required="1" />
@@ -568,15 +568,7 @@
                                     <div class="error-message" data-err_id="last_name"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">Mobile phone*</div>
-                                    <div class="input-wrap">
-                                        <input name="mobile" id="mobile" type="text" placeholder="" data-q_id="mobile"
-                                            data-required="1" />
-                                    </div>
-                                    <div class="error-message" data-err_id="mobile"></div>
-                                </div>
-                                <div class="form-item">
-                                    <div class="item-title required">E-mail*</div>
+                                    <div class="item-title required">E-mail</div>
                                     <div class="input-wrap">
                                         <input name="email" id="email" type="email" placeholder="" data-q_id="email"
                                             data-required="1" />
@@ -584,7 +576,7 @@
                                     <div class="error-message" data-err_id="email"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">Company*</div>
+                                    <div class="item-title required">Mobile phone</div>
                                     <div class="input-wrap">
                                         <input name="other_2" id="other_2" type="text" placeholder=""
                                             data-q_id="other_2" data-required="1" />
@@ -592,7 +584,15 @@
                                     <div class="error-message" data-err_id="other_2"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">Department*</div>
+                                    <div class="item-title required">Company</div>
+                                    <div class="input-wrap">
+                                        <input name="other_1" id="other_1" type="text" placeholder=""
+                                            data-q_id="other_1" data-required="1" />
+                                    </div>
+                                    <div class="error-message" data-err_id="other_1"></div>
+                                </div>
+                                <div class="form-item">
+                                    <div class="item-title required">Department</div>
                                     <div class="input-wrap">
                                         <input name="department" id="department" type="text" placeholder=""
                                             data-q_id="department" data-required="1" />
@@ -600,7 +600,7 @@
                                     <div class="error-message" data-err_id="department"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">Title*</div>
+                                    <div class="item-title required">Title</div>
                                     <div class="input-wrap">
                                         <input name="title" id="title" type="text" placeholder="" data-q_id="title"
                                             data-required="1" />
@@ -636,41 +636,6 @@
                                         </select>
                                     </div>
                                     <div class="error-message" data-err_id="business_type"></div>
-                                </div>
-                                <div class="form-item session-item">
-                                    <div class="session-header">
-                                        <div class="item-title required">Select Session(s)</div>
-                                        <div class="session-checkboxes">
-                                            <label class="checkbox-item" data-q_id="other_1">
-                                                <input type="checkbox" name="other_1" value="上午場" />
-                                                <div class="checkbox">
-                                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M10.8243 0.675736C11.0586 0.91005 11.0586 1.28995 10.8243 1.52426L5.22426 7.12426C4.98995 7.35858 4.61005 7.35858 4.37574 7.12426L1.17574 3.92426C0.941421 3.68995 0.941421 3.31005 1.17574 3.07574C1.41005 2.84142 1.78995 2.84142 2.02426 3.07574L4.8 5.85147L9.97574 0.675736C10.2101 0.441421 10.5899 0.441421 10.8243 0.675736Z"
-                                                            fill="currentColor" stroke="currentColor" stroke-width="0.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                </div>
-                                                <span class="checkbox-text">Morning</span>
-                                            </label>
-                                            <label class="checkbox-item" data-q_id="other_1">
-                                                <input type="checkbox" name="other_1" value="下午場" />
-                                                <div class="checkbox">
-                                                    <svg width="12" height="8" viewBox="0 0 12 8" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <path fill-rule="evenodd" clip-rule="evenodd"
-                                                            d="M10.8243 0.675736C11.0586 0.91005 11.0586 1.28995 10.8243 1.52426L5.22426 7.12426C4.98995 7.35858 4.61005 7.35858 4.37574 7.12426L1.17574 3.92426C0.941421 3.68995 0.941421 3.31005 1.17574 3.07574C1.41005 2.84142 1.78995 2.84142 2.02426 3.07574L4.8 5.85147L9.97574 0.675736C10.2101 0.441421 10.5899 0.441421 10.8243 0.675736Z"
-                                                            fill="currentColor" stroke="currentColor" stroke-width="0.5"
-                                                            stroke-linecap="round" stroke-linejoin="round" />
-                                                    </svg>
-                                                </div>
-                                                <span class="checkbox-text">Afternoon</span>
-                                            </label>
-                                        </div>
-                                        <span class="session-hint">Multiple selections allowed</span>
-                                    </div>
-                                    <div class="error-message" data-err_id="other_1"></div>
                                 </div>
 
                                 <div class="form-item privacy-policy-wrap">
@@ -714,6 +679,7 @@
                             </div>
                             <div class="campaign-popup">
                                 <div class="popup-box">
+                                    <button class="popup-close">&#x2715;</button>
                                     <div class="popup-title"></div>
                                     <div class="popup-content"></div>
                                 </div>
@@ -770,13 +736,12 @@
     <script>
         const columns = [
             { id: 'last_name', type: 'input', name: '姓名' },
-            { id: 'mobile', type: 'input', name: '電話' },
             { id: 'email', type: 'input', name: '電子信箱' },
-            { id: 'other_2', type: 'input', name: '公司名稱' },
+            { id: 'other_2', type: 'input', name: '行動電話' },
+            { id: 'other_1', type: 'input', name: '公司名稱' },
             { id: 'department', type: 'input', name: '部門' },
             { id: 'title', type: 'input', name: '職稱(如，科長)' },
             { id: 'business_type', type: 'select', name: '行業(如，傳播媒體)' },
-            { id: 'other_1', type: 'checkbox', name: '報名場次' },
         ];
         const switchLoading = (type) => {
             const loading_wrap = document.querySelector('.campaign-loading-wrap');
@@ -973,7 +938,7 @@
         };
 
         const validateMobile = (value) => {
-            const mobileError = document.querySelector('[data-err_id="mobile"]');
+            const mobileError = document.querySelector('[data-err_id="other_2"]');
             const noEnglish = /^[^A-Za-z]*$/;
             const allowedChars = /^[0-9#+]*$/;
             const hashRule = /^(?!.{0,7}#)(?!.*#.*#).*$/;
@@ -1007,8 +972,8 @@
         };
 
         const checkMobile = () => {
-            const mobileInput = document.getElementById('mobile');
-            const mobileError = document.querySelector('[data-err_id="mobile"]');
+            const mobileInput = document.getElementById('other_2');
+            const mobileError = document.querySelector('[data-err_id="other_2"]');
             if (mobileInput) {
                 mobileInput.addEventListener('input', () => {
                     if (!validateMobile(mobileInput.value)) {
@@ -1028,96 +993,52 @@
                 '.privacy-policy-wrap input[type="checkbox"]',
             );
 
+            const nameInput = document.getElementById('last_name');
+            const nameError = document.querySelector('[data-err_id="last_name"]');
+            const nameRequiredValue = nameInput ? Number(nameInput.getAttribute('data-required')) : 0;
+            const mobileInput = document.getElementById('other_2');
+            const mobileError = document.querySelector('[data-err_id="other_2"]');
+            const mobileRequiredValue = mobileInput ? Number(mobileInput.getAttribute('data-required')) : 0;
+            const emailInput = document.getElementById('email');
+            const emailError = document.querySelector('[data-err_id="email"]');
+            const emailRequiredValue = emailInput ? Number(emailInput.getAttribute('data-required')) : 0;
+            const privacy_policy_error = document.querySelector('[data-err_id="privacy_policy"]');
+
             submitButton.addEventListener('click', async (e) => {
                 let hasError = false;
-
-                // 通用 input / select 欄位驗證
-                const requiredInputs = [
-                    { id: 'last_name', errMsg: 'Name is required' },
-                    { id: 'mobile', errMsg: 'Phone is required' },
-                    { id: 'email', errMsg: 'Email is required' },
-                    { id: 'other_2', errMsg: 'Company name is required' },
-                    { id: 'department', errMsg: 'Department is required' },
-                    { id: 'title', errMsg: 'Job title is required' },
-                    { id: 'business_type', errMsg: 'Industry is required' },
-                ];
-
-                requiredInputs.forEach(({ id, errMsg }) => {
-                    const el = document.getElementById(id);
-                    const errEl = document.querySelector(`[data-err_id="${id}"]`);
-                    if (!el || !errEl) return;
-
-                    if (!el.value || el.value.trim() === '') {
-                        e.preventDefault();
-                        errEl.textContent = errMsg;
-                        errEl.style.display = 'block';
-                        el.classList.add('invalid');
-                        hasError = true;
-                    } else {
-                        errEl.textContent = '';
-                        errEl.style.display = 'none';
-                        el.classList.remove('invalid');
-                    }
-                });
-
-                // 手機格式驗證（值存在但格式錯誤）
-                const mobileInput = document.getElementById('mobile');
-                const mobileError = document.querySelector('[data-err_id="mobile"]');
-                if (
-                    mobileInput &&
-                    mobileInput.value &&
-                    !validateMobile(mobileInput.value)
-                ) {
-                    e.preventDefault();
-                    mobileInput.classList.add('invalid');
-                    mobileError.style.display = 'block';
-                    hasError = true;
-                }
-
-                // checkbox 報名場次：至少勾選一項
-                const checkedSessions = document.querySelectorAll(
-                    'input[name="other_1"]:checked',
-                );
-                const sessionError = document.querySelector(
-                    '[data-err_id="other_1"]',
-                );
-                if (sessionError) {
-                    if (checkedSessions.length === 0) {
-                        e.preventDefault();
-                        sessionError.textContent = 'Please select at least one session';
-                        sessionError.style.display = 'block';
-                        hasError = true;
-                    } else {
-                        sessionError.textContent = '';
-                        sessionError.style.display = 'none';
-                    }
-                }
-
-                // 個資聲明
-                const privacy_policy_error = document.querySelector(
-                    '[data-err_id="privacy_policy"]',
-                );
                 if (!privacy_policy.checked) {
                     e.preventDefault();
                     privacy_policy_error.textContent = 'You must agree to the Privacy Policy';
-                    privacy_policy_error.style.display = 'block';
                     hasError = true;
                 } else {
                     privacy_policy_error.textContent = '';
-                    privacy_policy_error.style.display = 'none';
+                }
+                if (mobileRequiredValue == 1 && !mobileInput.value) {
+                    e.preventDefault();
+                    mobileError.textContent = 'Mobile phone is required';
+                    mobileInput.classList.add('invalid');
+                    hasError = true;
+                } else if (mobileInput) {
+                    mobileError.textContent = '';
+                }
+                if (nameRequiredValue == 1 && !nameInput.value) {
+                    e.preventDefault();
+                    nameError.textContent = 'Name is required';
+                    nameInput.classList.add('invalid');
+                    hasError = true;
+                } else if (nameInput) {
+                    nameError.textContent = '';
+                }
+                if (emailRequiredValue == 1 && !emailInput.value) {
+                    e.preventDefault();
+                    emailError.textContent = 'Email is required';
+                    emailInput.classList.add('invalid');
+                    hasError = true;
+                } else if (emailInput) {
+                    emailError.textContent = '';
                 }
 
                 if (hasError) {
-                    const firstErrorEl = Array.from(
-                        document.querySelectorAll('[data-err_id]'),
-                    ).find((el) => el.style.display === 'block');
-
-                    if (firstErrorEl) {
-                        firstErrorEl.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'center',
-                        });
-                    }
                     return;
                 }
 
@@ -1184,104 +1105,16 @@
             });
         };
 
-        // ── 即時驗證 ──────────────────────────────────────────────
-        const initRealtimeValidation = () => {
-            // 通用 input / select：失焦時驗證，有值後即時清除錯誤
-            const requiredInputs = [
-                { id: 'last_name', errMsg: '姓名為必填欄位' },
-                { id: 'mobile', errMsg: '電話為必填欄位' },
-                { id: 'email', errMsg: 'email為必填欄位' },
-                { id: 'other_2', errMsg: '公司名稱為必填欄位' },
-                { id: 'department', errMsg: '部門為必填欄位' },
-                { id: 'title', errMsg: '職稱為必填欄位' },
-                { id: 'business_type', errMsg: '行業為必填欄位' },
-            ];
-
-            requiredInputs.forEach(({ id, errMsg }) => {
-                const el = document.getElementById(id);
-                const errEl = document.querySelector(`[data-err_id="${id}"]`);
-                if (!el || !errEl) return;
-
-                const isSelect = el.tagName === 'SELECT';
-                const eventType = isSelect ? 'change' : 'input';
-
-                // input / change：有值就立即清除錯誤
-                el.addEventListener(eventType, () => {
-                    if (el.value.trim() !== '') {
-                        errEl.textContent = '';
-                        errEl.style.display = 'none';
-                        el.classList.remove('invalid');
-                    }
-                });
-
-                // blur：離開欄位才顯示「必填」錯誤
-                el.addEventListener('blur', () => {
-                    if (!el.value || el.value.trim() === '') {
-                        errEl.textContent = errMsg;
-                        errEl.style.display = 'block';
-                        el.classList.add('invalid');
-                    }
-                });
-            });
-
-            // 手機：input 時即時格式驗證（已有 checkMobile 但改為統一在這裡處理）
-            const mobileInput = document.getElementById('mobile');
-            const mobileError = document.querySelector('[data-err_id="mobile"]');
-            if (mobileInput && mobileError) {
-                mobileInput.addEventListener('input', () => {
-                    if (!mobileInput.value) return; // 空值交給 blur 處理
-                    if (!validateMobile(mobileInput.value)) {
-                        mobileInput.classList.add('invalid');
-                        mobileError.style.display = 'block';
-                    } else {
-                        mobileInput.classList.remove('invalid');
-                        mobileError.textContent = '';
-                        mobileError.style.display = 'none';
-                    }
-                });
-            }
-
-            // checkbox 報名場次：勾選時即時清除錯誤
-            const sessionCheckboxes = document.querySelectorAll(
-                'input[name="other_1"]',
-            );
-            const sessionError = document.querySelector('[data-err_id="other_1"]');
-            if (sessionError) {
-                sessionCheckboxes.forEach((cb) => {
-                    cb.addEventListener('change', () => {
-                        const anyChecked =
-                            document.querySelectorAll('input[name="other_1"]:checked')
-                                .length > 0;
-                        if (anyChecked) {
-                            sessionError.textContent = '';
-                            sessionError.style.display = 'none';
-                        }
-                    });
-                });
-            }
-
-            // 個資聲明：勾選時即時清除錯誤
-            const privacyCheckbox = document.querySelector(
-                '.privacy-policy-wrap input[type="checkbox"]',
-            );
-            const privacyError = document.querySelector(
-                '[data-err_id="privacy_policy"]',
-            );
-            if (privacyCheckbox && privacyError) {
-                privacyCheckbox.addEventListener('change', () => {
-                    if (privacyCheckbox.checked) {
-                        privacyError.textContent = '';
-                        privacyError.style.display = 'none';
-                    }
-                });
-            }
-        };
-
         document.addEventListener('DOMContentLoaded', function () {
             setSelectColor();
             submitRegistration();
             checkMobile();
-            initRealtimeValidation();
+
+            const popup = document.querySelector('.campaign-form-wrap .campaign-popup');
+            document.querySelector('.campaign-popup .popup-close').addEventListener('click', () => switchCampaignPopup(null, false));
+            popup.addEventListener('click', (e) => {
+                if (e.target === popup) switchCampaignPopup(null, false);
+            });
         });
     </script>
 </body>

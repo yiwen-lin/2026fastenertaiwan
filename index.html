@@ -955,6 +955,7 @@
   </div>
   <div class="campaign-popup">
     <div class="popup-box">
+      <button class="popup-close">&#x2715;</button>
       <div class="popup-title"></div>
       <div class="popup-content"></div>
     </div>
@@ -1219,7 +1220,7 @@
     };
     
     const validateMobile = (value) => {
-      const mobileError = document.querySelector('[data-err_id="mobile"]');
+      const mobileError = document.querySelector('[data-err_id="other_2"]');
       const noEnglish = new RegExp(
         /^^[^A-Za-z]*$/
       );
@@ -1267,8 +1268,8 @@
     };
   
     const checkMobile = () => {
-      const mobileInput = document.getElementById('mobile');
-      const mobileError = document.querySelector('[data-err_id="mobile"]');
+      const mobileInput = document.getElementById('other_2');
+      const mobileError = document.querySelector('[data-err_id="other_2"]');
   
       if (mobileInput) {
         mobileInput.addEventListener('input', () => {
@@ -1288,8 +1289,8 @@
       const nameInput = document.getElementById('last_name');
       const nameError = document.querySelector('[data-err_id="last_name"]');
       const nameRequiredValue = nameInput ? Number(nameInput.getAttribute('data-required')) : 0;
-      const mobileInput = document.getElementById('mobile');
-      const mobileError = document.querySelector('[data-err_id="mobile"]');
+      const mobileInput = document.getElementById('other_2');
+      const mobileError = document.querySelector('[data-err_id="other_2"]');
       const mobileRequiredValue = mobileInput ? Number(mobileInput.getAttribute('data-required')) : 0;
       const emailInput = document.getElementById('email');
       const emailError = document.querySelector('[data-err_id="email"]');
@@ -1386,9 +1387,12 @@
       setSelectColor();
       submitRegistration();
       checkMobile();
-      
-      
-      
+
+      const popup = document.querySelector('.campaign-popup');
+      document.querySelector('.campaign-popup .popup-close').addEventListener('click', () => switchPopup(null, false));
+      popup.addEventListener('click', (e) => {
+        if (e.target === popup) switchPopup(null, false);
+      });
     });
   </script>
 
