@@ -110,7 +110,9 @@ main {
   letter-spacing: 0;
   letter-spacing: 0.2em;
   margin: auto;
-  background: linear-gradient(90deg, #a36f37 0%, #e7d380 35%, #f6ebab 50%, #e7d380 65%, #a36f37 100%);
+  /* background: linear-gradient(90deg, #a36f37 0%, #e7d380 35%, #f6ebab 50%, #e7d380 65%, #a36f37 100%); */
+    background: linear-gradient(90deg, #39A0D2 0%, #81C6B6 100%);
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -319,7 +321,7 @@ section.index {
   padding: 100px 30px 60px;
   position: relative;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index {
     padding-top: 70px;
     height: 900px;
@@ -343,7 +345,7 @@ section.index h1 {
 section.index .pc {
   display: none !important;
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 769px) {
   section.index .pc {
     display: block !important;
   }
@@ -351,7 +353,7 @@ section.index .pc {
 section.index .mb {
   display: none !important;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 768px) {
   section.index .mb {
     display: block !important;
   }
@@ -368,7 +370,7 @@ section.index .bg {
   -o-object-position: 85%;
      object-position: 85%;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index .bg {
     -o-object-position: center 35%;
        object-position: center 35%;
@@ -404,32 +406,36 @@ section.index .container {
   gap: 40px;
   text-align: left;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index .container {
-    align-items: flex-start;   
+    align-items: flex-start;
   }
 }
 section.index .container > div {
-  width: 50%;
+  width: 46%;
   margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index .container > div {
     width: 100%;
     margin-left: 0;
+    align-items: flex-start;
   }
 }
 section.index .logo {
-  width: 37%;
+  width: 50%;
 }
 section.index .hero-title-1 {
-  width: 100%;
-  margin-top: 20px;
-  margin-left: -3%;
+  width: 90%;
+  margin-top: 30px;
+  /* margin-left: -3%; */
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index .hero-title-1 {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 0;
     width: 110%;
     margin-left: -5%;
@@ -437,34 +443,36 @@ section.index .hero-title-1 {
 }
 section.index .hero-title-hr {
   margin-top: 30px;
+  width: 100%;
 }
 section.index .hero-title-2 {
-  width: 103%;
+  width: 90%;
   margin-top: 23px;
 }
-@media (max-width: 501px) {
+@media (max-width: 768px) {
   section.index .hero-title-2 {
     margin-top: 10%;
-    width: 100%;
+    width: 110%;
+    margin-left: -5%;
   }
 }
 @media (max-width: 405px) {
   section.index .hero-title-2 {
-    margin-top: 8%;
+    margin-top: 4%;
   }
 }
 section.index .hero-title-3 {
   width: 83%;
-  margin-top: 18px;
+  margin-top: 30px;
 }
-@media (max-width: 500px) {
+@media (max-width: 768px) {
   section.index .hero-title-3 {
     width: 100%;
   }
 }
 section.index .hero-title-4 {
   width: 100%;
-  margin-top: 20px;
+  margin-top: 36px;
 }
 
 section.foreword {
@@ -527,7 +535,7 @@ section.foreword .item h3 {
 section.foreword .item .line {
   display: block;
   margin: 30px auto;
-  background: #f5c95a;
+  background: #39A0D2;
   height: 2px;
   width: 80%;
 }
@@ -563,6 +571,7 @@ section.highlights {
 @media (max-width: 991px) {
   section.highlights {
     padding: 50px 30px;
+    margin-top: -1px;
   }
 }
 @media (max-width: 991px) {
@@ -626,7 +635,7 @@ section.highlights .highlight-card .card-label {
   top: -20px;
   left: 26px;
   font-weight: 500;
-  color: #d8be81;
+  color: #39A0D2;
   background-color: #032027;
   margin-bottom: 20px;
   letter-spacing: 0.05em;
@@ -680,6 +689,7 @@ section.speakers {
 @media (max-width: 991px) {
   section.speakers {
     padding: 50px 30px;
+    margin-top: -1px;
   }
 }
 @media (max-width: 991px) {
@@ -856,7 +866,7 @@ section.speakers .slick-next {
 
 section.agenda {
   font-family: "Inter", "Noto Sans TC", sans-serif;
-  background: linear-gradient(180deg, #402E66 0%, #220b56 100%);
+  background: linear-gradient(180deg, #092A7D 0%,  #4e1693 100%);
   padding: 150px 0 250px;
 }
 @media (max-width: 500px) {
@@ -945,7 +955,7 @@ section.agenda .agenda-item:not(:last-child)::before {
   top: 10px;
   width: 0;
   z-index: -1;
-  border-left: 1px solid #eec95d;
+  border-left: 1px solid #81C6B6;
   pointer-events: none;
 }
 @media (max-width: 991px) {
@@ -986,7 +996,7 @@ section.agenda .talk-label {
   font-size: 24px;
   line-height: 140%;
   letter-spacing: 0.2em;
-  color: #eec95d;
+  color: #75CCF3;
 }
 section.agenda .talk-title {
   font-weight: 700;
@@ -1477,7 +1487,7 @@ section.registration .campaign-form-wrap button.primary {
   max-width: 522px;
   display: block;
   margin: 0 auto;
-  background: #fff;
+  background: #75CCF3;
   color: #0C1531;
   font-weight: 700;
   font-size: 19px;
@@ -1870,4 +1880,47 @@ footer .footer-org-logo-3 img {
 }
 .campaign-popup.active {
   display: flex !important;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.fixed-register-btn {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #7FC5B6 0%, #3BA1D1 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 999px;
+  text-decoration: none;
+  z-index: 999;
+  box-shadow: 0 4px 16px rgba(59, 161, 209, 0.4);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(8px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+.fixed-register-btn.visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+.fixed-register-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+@media (max-width: 768px) {
+  .fixed-register-btn {
+    bottom: 20px;
+    right: 20px;
+    width: 80px;
+    height: 80px;
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

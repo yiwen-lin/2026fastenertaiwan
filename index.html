@@ -42,7 +42,7 @@
     <link rel="preload" href="./assets/image/hero-title-3.svg" as="image" media="(min-width: 501px)" />
     <link rel="preload" href="./assets/image/hero-title-m-1.svg" as="image" media="(max-width: 500px)" />
     <link rel="preload" href="./assets/image/hero-title-m-2.svg" as="image" media="(max-width: 500px)" />
-    <link rel="preload" href="./assets/image/hero-title-m-3.svg" as="image" media="(max-width: 500px)" />
+    <!-- <link rel="preload" href="./assets/image/hero-title-m-3.svg" as="image" media="(max-width: 500px)" /> -->
     <link rel="preload" href="./assets/image/hero-title-m-4.svg" as="image" media="(max-width: 500px)" />
 
     <!-- fb pixel -->
@@ -76,9 +76,6 @@
 
     <!-- Google Tag Manager -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-    </script>
-    <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -93,13 +90,13 @@
 </head>
 
 <body>
-    <!-- fb pixel -->
-    <noscript><img height="1" width="1" style="display: none"
-            src="https://www.facebook.com/tr?id=614924538858183&ev=PageView&noscript=1" /></noscript>
-
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLD77" height="0" width="0"
             style="display: none; visibility: hidden"></iframe></noscript>
+
+    <!-- fb pixel -->
+    <noscript><img height="1" width="1" style="display: none"
+            src="https://www.facebook.com/tr?id=614924538858183&ev=PageView&noscript=1" /></noscript>
 
     <main>
         <nav>
@@ -184,8 +181,8 @@
                         data-aos-delay="200" />
                     <img src="./assets/image/hero-title-m-hr.svg" alt="" class="hero-title-hr mb" data-aos="fade-up"
                         data-aos-delay="300" />
-                    <img src="./assets/image/hero-title-m-3.svg" alt="" class="hero-title-3 mb" data-aos="fade-up"
-                        data-aos-delay="400" />
+                    <!-- <img src="./assets/image/hero-title-m-3.svg" alt="" class="hero-title-3 mb" data-aos="fade-up"
+                        data-aos-delay="400" /> -->
                     <img src="./assets/image/hero-title-m-4.svg" alt="" class="hero-title-4 mb" data-aos="fade-up"
                         data-aos-delay="500" />
                 </div>
@@ -206,7 +203,7 @@
                 </h2>
                 <div class="item">
                     <h3 data-aos="fade-up">
-                        AI醫療進入變現時代，臺灣如何走向國際？
+                        AI醫療進入變現時代，<br>臺灣如何走向國際？
                     </h3>
                     <div class="line" data-aos="fade-up"></div>
                     <p data-aos="fade-up">
@@ -858,21 +855,21 @@
   <div class="required-text">*為必填欄位</div>
   <div class="campaign-form">
     <div class="form-item">
-  <div class="item-title required">姓名</div>
+  <div class="item-title required">姓名*</div>
   <div class="input-wrap">
     <input name="last_name" id="last_name" type="text" placeholder="" data-q_id="last_name" data-required="1" />
   </div>
   <div class="error-message" data-err_id="last_name"></div>
 </div>
 <div class="form-item">
-  <div class="item-title required">電子信箱</div>
+  <div class="item-title required">電子信箱*</div>
   <div class="input-wrap">
     <input name="email" id="email" type="email" placeholder="" data-q_id="email" data-required="1" />
   </div>
   <div class="error-message" data-err_id="email"></div>
 </div>
 <div class="form-item">
-  <div class="item-title required">行動電話</div>
+  <div class="item-title required">行動電話*</div>
   <div class="input-wrap">
     <input name="other_2" id="other_2" type="text" placeholder="請輸入手機號碼" data-q_id="other_2" data-required="1" />
   </div>
@@ -1004,6 +1001,9 @@
             </div>
         </footer>
     </main>
+
+    <!-- Fixed 立即報名 button -->
+    <a href="#registration" class="fixed-register-btn">立即報名</a>
 
     <!-- 原有的 JS -->
     <script src="./assets/js/jquery.min.js"></script>
@@ -1369,6 +1369,11 @@
               const pageTitle = document.title;
               appier('event', 'service_submitted_completed', {'title': pageTitle, 'service_id': '485'});
             }
+            window.dataLayer = window.dataLayer || [];
+            window.dataLayer.push({ event: 'registration_complete' });
+            if (typeof fbq !== 'undefined') {
+              fbq('track', 'Lead');
+            }
             switchPopup(null, true, '報名完成', '感謝您的填寫，系統已成功收到您的報名資訊，<br>後續將由主辦單位另行聯繫，敬請留意信箱通知。');
           } catch (error) {
             switchPopup(null, true, '報名失敗', '請檢查您的網路連接，並嘗試重新提交。若問題持續發生請聯繫客服協助。');
@@ -1394,6 +1399,23 @@
         if (e.target === popup) switchPopup(null, false);
       });
     });
+  </script>
+
+  <script>
+    (function () {
+      var btn = document.querySelector('.fixed-register-btn');
+      var hero = document.querySelector('section.index');
+      function onScroll() {
+        var heroBottom = hero ? hero.offsetTop + hero.offsetHeight : 0;
+        if (window.scrollY > heroBottom) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
   </script>
 
 </body>

@@ -45,7 +45,7 @@
     <link rel="preload" href="./assets/image/hero-title-m-2.svg" as="image" media="(max-width: 500px)" />
     <link rel="preload" href="./assets/image/hero-title-m-3.svg" as="image" media="(max-width: 500px)" />
 
-    <!-- fb pixel -->
+     <!-- fb pixel -->
     <script>
         !(function (f, b, e, v, n, t, s) {
             if (f.fbq) return;
@@ -76,9 +76,6 @@
 
     <!-- Google Tag Manager -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-    </script>
-    <script>
         (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
@@ -93,13 +90,13 @@
 </head>
 
 <body>
+   <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLD77" height="0" width="0"
+            style="display: none; visibility: hidden"></iframe></noscript>
+
     <!-- fb pixel -->
     <noscript><img height="1" width="1" style="display: none"
             src="https://www.facebook.com/tr?id=614924538858183&ev=PageView&noscript=1" /></noscript>
-
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXLD77" height="0" width="0"
-            style="display: none; visibility: hidden"></iframe></noscript>
 
     <main>
         <nav>
@@ -168,22 +165,26 @@
                     </h1>
 
                     <!-- pc -->
-                    <img src="./assets/image/hero-title-1.svg" alt="" class="hero-title-1 pc" data-aos="fade-up"
+                    <img src="./assets/image/hero-title-2.svg" alt="" class="hero-title-1 pc" data-aos="fade-up"
                         data-aos-delay="0" />
                     <img src="./assets/image/hero-title-hr.svg" alt="" class="hero-title-hr pc" data-aos="fade-up"
                         data-aos-delay="100" />
-                    <img src="./assets/image/hero-title-2.svg" alt="" class="hero-title-2 pc" data-aos="fade-up"
-                        data-aos-delay="200" />
+                    <!-- <img src="./assets/image/hero-title-2.svg" alt="" class="hero-title-2 pc" data-aos="fade-up"
+                        data-aos-delay="200" /> -->
                     <img src="./assets/image/hero-title-3.svg" alt="" class="hero-title-3 pc" data-aos="fade-up"
                         data-aos-delay="300" />
 
                     <!-- mb -->
-                    <img src="./assets/image/hero-title-m-1.svg" alt="" class="hero-title-1 mb" data-aos="fade-up"
+                    <img src="./assets/image/hero-title-m-2.svg" alt="" class="hero-title-1 mb" data-aos="fade-up"
                         data-aos-delay="100" />
-                    <img src="./assets/image/hero-title-m-2.svg" alt="" class="hero-title-2 mb" data-aos="fade-up"
-                        data-aos-delay="200" />
-                    <img src="./assets/image/hero-title-m-3.svg" alt="" class="hero-title-3 mb" data-aos="fade-up"
+                    <!-- <img src="./assets/image/hero-title-m-2.svg" alt="" class="hero-title-2 mb" data-aos="fade-up"
+                        data-aos-delay="200" /> -->
+                    <img src="./assets/image/hero-title-m-hr.svg" alt="" class="hero-title-hr mb" data-aos="fade-up"
                         data-aos-delay="300" />
+                    <!-- <img src="./assets/image/hero-title-m-3.svg" alt="" class="hero-title-3 mb" data-aos="fade-up"
+                        data-aos-delay="400" /> -->
+                    <img src="./assets/image/hero-title-m-4.svg" alt="" class="hero-title-4 mb" data-aos="fade-up"
+                        data-aos-delay="500" />
                 </div>
             </div>
             </div>
@@ -202,7 +203,7 @@
                 </h2>
                 <div class="item">
                     <h3 data-aos="fade-up">
-                        As AI Healthcare Enters the Era of Commercialization, How Can Taiwan Expand Globally?
+                        As AI Healthcare Enters the Era of Commercialization,<br>How Can Taiwan Expand Globally?
                     </h3>
                     <div class="line" data-aos="fade-up"></div>
                     <p data-aos="fade-up">
@@ -560,7 +561,7 @@
                             <!-- <div class="required-text">*為必填欄位</div> -->
                             <div class="campaign-form">
                                 <div class="form-item">
-                                    <div class="item-title required">Name</div>
+                                    <div class="item-title required">Name*</div>
                                     <div class="input-wrap">
                                         <input name="last_name" id="last_name" type="text" placeholder=""
                                             data-q_id="last_name" data-required="1" />
@@ -568,7 +569,7 @@
                                     <div class="error-message" data-err_id="last_name"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">E-mail</div>
+                                    <div class="item-title required">E-mail*</div>
                                     <div class="input-wrap">
                                         <input name="email" id="email" type="email" placeholder="" data-q_id="email"
                                             data-required="1" />
@@ -576,7 +577,7 @@
                                     <div class="error-message" data-err_id="email"></div>
                                 </div>
                                 <div class="form-item">
-                                    <div class="item-title required">Mobile phone</div>
+                                    <div class="item-title required">Mobile phone*</div>
                                     <div class="input-wrap">
                                         <input name="other_2" id="other_2" type="text" placeholder=""
                                             data-q_id="other_2" data-required="1" />
@@ -725,6 +726,9 @@
             </div>
         </footer>
     </main>
+
+    <!-- Fixed 立即報名 button -->
+    <a href="#registration" class="fixed-register-btn">Register now</a>
 
     <!-- 原有的 JS -->
     <script src="./assets/js/jquery.min.js"></script>
@@ -1117,6 +1121,23 @@
             });
         });
     </script>
+
+      <script>
+    (function () {
+      var btn = document.querySelector('.fixed-register-btn');
+      var hero = document.querySelector('section.index');
+      function onScroll() {
+        var heroBottom = hero ? hero.offsetTop + hero.offsetHeight : 0;
+        if (window.scrollY > heroBottom) {
+          btn.classList.add('visible');
+        } else {
+          btn.classList.remove('visible');
+        }
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    })();
+  </script>
 </body>
 
 </html>
