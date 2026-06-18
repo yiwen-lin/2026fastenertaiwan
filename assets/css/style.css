@@ -529,7 +529,7 @@ section.foreword .item h3 {
 }
 @media (max-width: 991px) {
   section.foreword .item h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 section.foreword .item .line {
@@ -553,7 +553,8 @@ section.foreword .item p {
 }
 @media (max-width: 991px) {
   section.foreword .item p {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 section.foreword .item p strong {
@@ -630,7 +631,7 @@ section.highlights .highlight-card .card-label {
   display: inline-block;
   border-radius: 4px;
   padding: 4px 10px;
-  font-size: 32px;
+  font-size: 36px;
   position: absolute;
   top: -20px;
   left: 26px;
@@ -647,7 +648,7 @@ section.highlights .highlight-card .card-label {
   }
 }
 section.highlights .highlight-card h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   color: #fff;
   line-height: 45px;
@@ -655,15 +656,17 @@ section.highlights .highlight-card h3 {
 }
 @media (max-width: 991px) {
   section.highlights .highlight-card h3 {
-    font-size: 20px;
+    font-size: 25px;
+     line-height: 40px;
   }
 }
 section.highlights .highlight-card p {
   margin-top: 18px;
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(255, 255, 255);
-  line-height: 28px;
+  line-height: 38px;
   text-align: left;
+  font-weight: 300;
 }
 section.highlights .highlight-card .num {
   font-family: "Electrolize", sans-serif;
@@ -802,12 +805,28 @@ section.speakers .speaker-slide h3::after {
   transform: translate(-50%, -50%);
   z-index: -1;
 }
+section.speakers .speaker-slide h3.point::after {
+  content: "";
+  position: absolute;
+  background: url("./../image/speaker-name-bg-color.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 63px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 section.speakers .speaker-slide .title {
   font-size: 20px;
   color: #fff;
   line-height: 34px;
   position: relative;
   z-index: 1;
+}
+section.speakers .speaker-slide .title.point{
+  color: #75ccf3;
 }
 section.speakers .speaker-slide .title p {
   margin-top: 10px;
@@ -1018,6 +1037,9 @@ section.agenda .speaker {
   color: #ffffff;
   text-align: left;
   white-space: nowrap;
+}
+section.agenda .speaker.point {
+  color: #81C6B6;
 }
 @media (max-width: 991px) {
   section.agenda .speaker {

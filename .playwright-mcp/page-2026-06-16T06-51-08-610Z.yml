@@ -1,0 +1,302 @@
+- main [ref=e2]:
+  - navigation [ref=e3]:
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "前言" [ref=e7] [cursor=pointer]:
+          - /url: "#foreword"
+      - listitem [ref=e8]:
+        - link "活動亮點" [ref=e9] [cursor=pointer]:
+          - /url: "#highlights"
+      - listitem [ref=e10]:
+        - link "講者介紹" [ref=e11] [cursor=pointer]:
+          - /url: "#speakers"
+      - listitem [ref=e12]:
+        - link "論壇議程" [ref=e13] [cursor=pointer]:
+          - /url: "#agenda"
+      - listitem [ref=e14]:
+        - link "交通資訊" [ref=e15] [cursor=pointer]:
+          - /url: "#location"
+      - listitem [ref=e16]:
+        - link "活動報名" [ref=e17] [cursor=pointer]:
+          - /url: "#registration"
+      - listitem [ref=e18]:
+        - link "English" [ref=e19] [cursor=pointer]:
+          - /url: ./en/index.html
+  - heading "Global Fastener Forum 2026 年全球扣件產業論壇" [level=1] [ref=e24]
+  - generic [ref=e26]:
+    - heading "2026 年全球扣件產業論壇" [level=2] [ref=e27]
+    - generic [ref=e28]:
+      - heading "AI醫療進入變現時代，臺灣如何走向國際？" [level=3] [ref=e29]
+      - paragraph [ref=e31]:
+        - text: AI正快速改變全球醫療產業，從臨床應用、流程優化到國際市場拓展，智慧醫療已成為大健康產業的重要成長動能。
+        - text: 「2026全球AI智慧醫療戰略高峰會」聚焦AI醫療的商業化與國際化發展，邀集國際醫療機構、科技企業及臺灣產業領袖，共同探討醫療資料應用、臨床驗證、國際布局與市場機會。
+        - text: 透過跨界交流與實務分享，攜手探索臺灣智慧醫療接軌全球、開創產業新價值的關鍵策略。
+  - generic [ref=e33]:
+    - heading "活動 3 大亮點" [level=2] [ref=e34]
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: 國際視野
+        - heading "掌握AI醫療全球趨勢" [level=3] [ref=e38]
+        - paragraph [ref=e39]: 邀請美國麻省總醫院新創中心與GE HealthCare國際專家，從跨境驗證、臨床導入到商業應用，解析AI醫療如何在全球市場中加速落地。
+      - generic [ref=e41]:
+        - generic [ref=e42]: 產業戰略
+        - heading "看見臺灣大健康新商機" [level=3] [ref=e43]
+        - paragraph [ref=e44]: 從醫院資料、AI大數據到健康科技應用，探討臺灣如何將臨床能量與產業資源轉化為可擴張、可輸出的國際競爭力。
+      - generic [ref=e46]:
+        - generic [ref=e47]: 市場突圍
+        - heading "串聯驗證、通路與國際布局" [level=3] [ref=e48]
+        - paragraph [ref=e49]: 聚焦智慧醫療企業最關鍵的出海課題，從臨床驗證、法規與國際市場進入策略，思考臺灣AI醫療如何走向全球。
+  - generic [ref=e52]:
+    - heading "講者介紹" [level=2] [ref=e53]
+    - generic [ref=e54]:
+      - button "prev" [ref=e55] [cursor=pointer]:
+        - img "prev" [ref=e56]
+      - generic [ref=e58]:
+        - generic [ref=e61] [cursor=pointer]:
+          - heading [level=3] [ref=e62]: 張文瀚
+          - paragraph [ref=e64]: 馬偕紀念醫院 總院長
+        - generic [ref=e67] [cursor=pointer]:
+          - heading [level=3] [ref=e68]: 連加恩
+          - paragraph [ref=e70]: 宏碁智醫 董事長
+        - generic [ref=e73] [cursor=pointer]:
+          - heading [level=3] [ref=e74]: 陳靜怡
+          - paragraph [ref=e76]: 晉弘科技股份有限公司 副總經理
+        - generic [ref=e79] [cursor=pointer]:
+          - heading [level=3] [ref=e80]: 李俊霖
+          - paragraph [ref=e82]: 倍智醫電 營運長
+        - generic [ref=e85] [cursor=pointer]:
+          - heading "黃志芳" [level=3] [ref=e87]
+          - paragraph [ref=e89]: 中華民國對外貿易發展協會 董事長
+        - generic [ref=e92] [cursor=pointer]:
+          - heading "Dr. Marc Succi" [level=3] [ref=e94]:
+            - paragraph [ref=e95]: Dr. Marc
+            - paragraph [ref=e96]: Succi
+          - generic [ref=e97]:
+            - paragraph [ref=e98]: Massachusetts General Hospital
+            - paragraph [ref=e99]: 新創中心創辦人 暨執行董事
+        - generic [ref=e102] [cursor=pointer]:
+          - heading "Jan Beger" [level=3] [ref=e104]:
+            - paragraph [ref=e105]: Jan Beger
+          - generic [ref=e106]:
+            - paragraph [ref=e107]: GE HealthCare
+            - paragraph [ref=e108]: 全球人工智慧 倡導負責人
+        - generic [ref=e111] [cursor=pointer]:
+          - heading [level=3] [ref=e113]: 陳適安
+          - paragraph [ref=e115]: 臺中榮民總醫院 名譽院長
+        - generic [ref=e118] [cursor=pointer]:
+          - heading [level=3] [ref=e120]: 吳麥斯
+          - paragraph [ref=e122]: 臺北醫學大學 校長
+        - generic [ref=e125] [cursor=pointer]:
+          - heading [level=3] [ref=e127]: 陳建宗
+          - paragraph [ref=e129]: 林口長庚紀念醫院 院長
+        - generic [ref=e132] [cursor=pointer]:
+          - heading [level=3] [ref=e134]: 葉肇元
+          - paragraph [ref=e136]: 雲象科技 創辦人暨執行長
+        - generic [ref=e139] [cursor=pointer]:
+          - heading [level=3] [ref=e140]: 張文瀚
+          - paragraph [ref=e142]: 馬偕紀念醫院 總院長
+        - generic [ref=e145] [cursor=pointer]:
+          - heading [level=3] [ref=e146]: 連加恩
+          - paragraph [ref=e148]: 宏碁智醫 董事長
+        - generic [ref=e151] [cursor=pointer]:
+          - heading [level=3] [ref=e152]: 陳靜怡
+          - paragraph [ref=e154]: 晉弘科技股份有限公司 副總經理
+        - generic [ref=e157] [cursor=pointer]:
+          - heading [level=3] [ref=e158]: 李俊霖
+          - paragraph [ref=e160]: 倍智醫電 營運長
+        - generic [ref=e163] [cursor=pointer]:
+          - heading [level=3] [ref=e165]: 黃志芳
+          - paragraph [ref=e167]: 中華民國對外貿易發展協會 董事長
+        - generic [ref=e170] [cursor=pointer]:
+          - heading [level=3] [ref=e172]:
+            - paragraph [ref=e173]: Dr. Marc
+            - paragraph [ref=e174]: Succi
+          - generic [ref=e175]:
+            - paragraph [ref=e176]: Massachusetts General Hospital
+            - paragraph [ref=e177]: 新創中心創辦人 暨執行董事
+        - generic [ref=e180] [cursor=pointer]:
+          - heading [level=3] [ref=e182]:
+            - paragraph [ref=e183]: Jan Beger
+          - generic [ref=e184]:
+            - paragraph [ref=e185]: GE HealthCare
+            - paragraph [ref=e186]: 全球人工智慧 倡導負責人
+        - generic [ref=e189] [cursor=pointer]:
+          - heading [level=3] [ref=e191]: 陳適安
+          - paragraph [ref=e193]: 臺中榮民總醫院 名譽院長
+        - generic [ref=e196] [cursor=pointer]:
+          - heading [level=3] [ref=e198]: 吳麥斯
+          - paragraph [ref=e200]: 臺北醫學大學 校長
+        - generic [ref=e203] [cursor=pointer]:
+          - heading [level=3] [ref=e205]: 陳建宗
+          - paragraph [ref=e207]: 林口長庚紀念醫院 院長
+        - generic [ref=e210] [cursor=pointer]:
+          - heading [level=3] [ref=e212]: 葉肇元
+          - paragraph [ref=e214]: 雲象科技 創辦人暨執行長
+        - generic [ref=e217] [cursor=pointer]:
+          - heading [level=3] [ref=e218]: 張文瀚
+          - paragraph [ref=e220]: 馬偕紀念醫院 總院長
+        - generic [ref=e223] [cursor=pointer]:
+          - heading [level=3] [ref=e224]: 連加恩
+          - paragraph [ref=e226]: 宏碁智醫 董事長
+        - generic [ref=e229] [cursor=pointer]:
+          - heading [level=3] [ref=e230]: 陳靜怡
+          - paragraph [ref=e232]: 晉弘科技股份有限公司 副總經理
+        - generic [ref=e235] [cursor=pointer]:
+          - heading [level=3] [ref=e236]: 李俊霖
+          - paragraph [ref=e238]: 倍智醫電 營運長
+      - button "next" [ref=e239] [cursor=pointer]:
+        - img "next" [ref=e240]
+  - generic:
+    - generic:
+      - generic:
+        - button "關閉"
+        - generic:
+          - generic:
+            - heading [level=2]
+  - generic [ref=e241]:
+    - heading "論壇議程" [level=2] [ref=e243]
+    - list [ref=e244]:
+      - listitem [ref=e245]:
+        - generic [ref=e247]: 09:00–09:30
+        - paragraph [ref=e249]: 報到
+      - listitem [ref=e250]:
+        - generic [ref=e252]: 09:30–09:40
+        - generic [ref=e253]:
+          - generic [ref=e254]: 開幕致詞
+          - paragraph [ref=e255]: AI醫療新局：臺灣健康產業的國際關鍵時刻
+      - listitem [ref=e256]:
+        - generic [ref=e258]: 09:40–10:10
+        - generic [ref=e259]:
+          - generic [ref=e260]: 專題演講一
+          - paragraph [ref=e261]: AI 醫療新未來：加速創新轉型與全球醫療變革
+          - paragraph [ref=e262]: Dr. Marc Succi｜
+          - paragraph [ref=e263]:
+            - text: 麻省總醫院MESH 創新孵化器創辦人暨執行長、
+            - text: 哈佛醫學院 放射科副教授
+      - listitem [ref=e264]:
+        - generic [ref=e266]: 10:10–10:40
+        - generic [ref=e267]:
+          - generic [ref=e268]: 專題演講二
+          - paragraph [ref=e269]: AI如何改寫醫療服務：臨床應用與照護流程革新
+          - paragraph [ref=e270]: Jan Beger｜GE HealthCare 全球人工智慧倡導負責人
+      - listitem [ref=e271]:
+        - generic [ref=e273]: 10:40–11:00
+        - paragraph [ref=e275]: 中場休息
+      - listitem [ref=e276]:
+        - generic [ref=e278]: 11:00–11:30
+        - generic [ref=e279]:
+          - generic [ref=e280]: 專題座談一
+          - paragraph [ref=e281]: 從醫院資料到產業資產：AI大數據如何帶動臺灣大健康新商機？
+          - paragraph [ref=e282]:
+            - text: "主持人:"
+            - text: 臺中榮民總醫院 陳適安名譽院長
+          - paragraph [ref=e283]:
+            - text: "與談人:"
+            - text: 臺北醫學大學 吳麥斯校長
+            - text: 林口長庚紀念醫院 陳建宗院長
+            - text: 雲象科技 葉肇元創辦人暨執行長
+      - listitem [ref=e284]:
+        - generic [ref=e286]: 11:30–12:00
+        - generic [ref=e287]:
+          - generic [ref=e288]: 專題座談二
+          - paragraph [ref=e289]: 臨床驗證、國際通路與智慧醫療的市場突圍
+          - paragraph [ref=e290]:
+            - text: "主持人:"
+            - text: 馬偕紀念醫院 張文瀚總院長
+          - paragraph [ref=e291]:
+            - text: "與談人:"
+            - text: 宏碁智醫 連加恩董事長
+            - text: 晉弘科技 陳錦怡執行副總經理
+            - text: 倍智醫電 李俊霖營運長
+      - listitem [ref=e292]:
+        - generic [ref=e294]: 12:00
+        - generic [ref=e296]: 論壇結束
+  - generic [ref=e297]:
+    - generic [ref=e299]:
+      - heading "交通資訊" [level=2] [ref=e300]
+      - generic [ref=e301]:
+        - generic [ref=e302]:
+          - generic [ref=e303]:
+            - heading "活動地點" [level=3] [ref=e304]
+            - paragraph [ref=e305]:
+              - text: 台北國際會議中心101會議室
+              - text: 台北市信義路5段1號1樓
+          - generic [ref=e306]:
+            - heading "交通資訊" [level=3] [ref=e307]
+            - link "詳細交通資訊" [ref=e308] [cursor=pointer]:
+              - /url: https://maps.app.goo.gl/5QyTtA9Ypg5GhKor5
+        - iframe [ref=e310]:
+          
+    - generic [ref=e312]:
+      - heading "論壇報名" [level=2] [ref=e313]
+      - generic [ref=e316]:
+        - generic [ref=e317]:
+          - generic [ref=e318]: 姓名
+          - textbox [ref=e320]
+        - generic [ref=e321]:
+          - generic [ref=e322]: 電子信箱
+          - textbox [ref=e324]
+        - generic [ref=e325]:
+          - generic [ref=e326]: 行動電話
+          - textbox "請輸入手機號碼" [ref=e328]
+        - generic [ref=e329]:
+          - generic [ref=e330]: 公司名稱
+          - textbox [ref=e332]
+        - generic [ref=e333]:
+          - generic [ref=e334]: 部門
+          - textbox [ref=e336]
+        - generic [ref=e337]:
+          - generic [ref=e338]: 職稱(如，科長)
+          - textbox [ref=e340]
+        - generic [ref=e341]:
+          - generic [ref=e342]: 行業別
+          - combobox [ref=e344] [cursor=pointer]:
+            - option "請選擇" [disabled] [selected]
+            - option "製造業"
+            - option "資訊科技業"
+            - option "高科技製造業"
+            - option "傳統製造產業"
+            - option "製藥與生物科技業"
+            - option "金控/銀行業"
+            - option "投信、顧/證券業"
+            - option "能源服務"
+            - option "資訊服務"
+            - option "零售/通路服務"
+            - option "休閒服務業"
+            - option "餐飲服務業"
+            - option "醫療保健"
+            - option "傳播出版"
+            - option "公職人員"
+            - option "學生"
+            - option "家管"
+            - option "教育服務業"
+            - option "專業技術與顧問服務"
+            - option "自由業"
+            - option "其他"
+        - generic [ref=e345]:
+          - generic [ref=e347] [cursor=pointer]:
+            - img [ref=e349]
+            - generic [ref=e351]: 我已閱讀並同意個資聲明以參加本活動
+          - generic [ref=e352]:
+            - text: 本人已清楚瞭解
+            - link "個人資料聲明同意書" [ref=e353] [cursor=pointer]:
+              - /url: https://pdp.cwg.tw/view/B/B-20260610005
+            - text: ，並同意於所列搜集目的之必要範圍內，蒐集、處理及利用本人之個人資料，且如有包含本人以外之第三人個人資料時，本人已以（或將以）適當方式使該第三人知悉其個人資料會提供予貴公司於本同意書之範圍內，進行蒐集、處理或利用。本人並同意留存（電子或紙本）同意書，供日後取出查驗。
+        - button "送出" [ref=e355] [cursor=pointer]
+  - generic [ref=e357]:
+    - generic [ref=e359]: 國際貿易署廣告
+    - generic [ref=e360]:
+      - generic [ref=e361]:
+        - generic [ref=e362]: 主辦單位：
+        - link "經濟部國際貿易署" [ref=e364] [cursor=pointer]:
+          - /url: https://www.trade.gov.tw/
+          - img "經濟部國際貿易署" [ref=e365]
+      - generic [ref=e366]:
+        - generic [ref=e367]: 執行單位：
+        - generic [ref=e368]:
+          - link "中華民國對外貿易協會" [ref=e370] [cursor=pointer]:
+            - /url: https://www.taitra.org.tw/
+            - img "中華民國對外貿易協會" [ref=e371]
+          - link "天下雜誌" [ref=e373] [cursor=pointer]:
+            - /url: https://www.cw.com.tw/
+            - img "天下雜誌" [ref=e374]
