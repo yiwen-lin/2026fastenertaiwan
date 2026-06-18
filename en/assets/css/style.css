@@ -412,7 +412,7 @@ section.index .container {
   }
 }
 section.index .container > div {
-  width: 50%;
+  width: 46%;
   margin-left: auto;
   display: flex;
   flex-direction: column;
@@ -429,20 +429,20 @@ section.index .logo {
   width: 50%;
 }
 section.index .hero-title-1 {
-  width: 100%;
-  margin-top: 50px;
+  width: 90%;
+  margin-top: 30px;
   /* margin-left: -3%; */
 }
 @media (max-width: 768px) {
   section.index .hero-title-1 {
     margin-top: 50px;
     margin-left: 0;
-    width: 100%;
-    /* margin-left: -5%; */
+    width: 110%;
+    margin-left: -5%;
   }
 }
 section.index .hero-title-hr {
-  margin-top: 50px;
+  margin-top: 30px;
   width: 100%;
 }
 section.index .hero-title-2 {
@@ -463,7 +463,7 @@ section.index .hero-title-2 {
 }
 section.index .hero-title-3 {
   width: 83%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 @media (max-width: 768px) {
   section.index .hero-title-3 {
@@ -471,7 +471,7 @@ section.index .hero-title-3 {
   }
 }
 section.index .hero-title-4 {
-  width: 80%;
+  width: 100%;
   margin-top: 36px;
 }
 
@@ -529,7 +529,7 @@ section.foreword .item h3 {
 }
 @media (max-width: 991px) {
   section.foreword .item h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
 }
 section.foreword .item .line {
@@ -553,7 +553,8 @@ section.foreword .item p {
 }
 @media (max-width: 991px) {
   section.foreword .item p {
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 400;
   }
 }
 section.foreword .item p strong {
@@ -630,7 +631,7 @@ section.highlights .highlight-card .card-label {
   display: inline-block;
   border-radius: 4px;
   padding: 4px 10px;
-  font-size: 32px;
+  font-size: 36px;
   position: absolute;
   top: -20px;
   left: 26px;
@@ -647,7 +648,7 @@ section.highlights .highlight-card .card-label {
   }
 }
 section.highlights .highlight-card h3 {
-  font-size: 24px;
+  font-size: 28px;
   font-weight: 700;
   color: #fff;
   line-height: 45px;
@@ -655,15 +656,17 @@ section.highlights .highlight-card h3 {
 }
 @media (max-width: 991px) {
   section.highlights .highlight-card h3 {
-    font-size: 20px;
+    font-size: 25px;
+     line-height: 40px;
   }
 }
 section.highlights .highlight-card p {
   margin-top: 18px;
-  font-size: 20px;
+  font-size: 22px;
   color: rgb(255, 255, 255);
-  line-height: 28px;
+  line-height: 38px;
   text-align: left;
+  font-weight: 300;
 }
 section.highlights .highlight-card .num {
   font-family: "Electrolize", sans-serif;
@@ -802,12 +805,28 @@ section.speakers .speaker-slide h3::after {
   transform: translate(-50%, -50%);
   z-index: -1;
 }
+section.speakers .speaker-slide h3.point::after {
+  content: "";
+  position: absolute;
+  background: url("./../image/speaker-name-bg-color.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 63px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
 section.speakers .speaker-slide .title {
   font-size: 20px;
   color: #fff;
   line-height: 34px;
   position: relative;
   z-index: 1;
+}
+section.speakers .speaker-slide .title.point{
+  color: #75ccf3;
 }
 section.speakers .speaker-slide .title p {
   margin-top: 10px;
@@ -990,6 +1009,7 @@ section.agenda .content {
   flex-direction: column;
   align-items: flex-start;
   gap: 16px;
+  min-width: 0;
 }
 section.agenda .talk-label {
   font-weight: 700;
@@ -1017,7 +1037,11 @@ section.agenda .speaker {
   letter-spacing: 0.2em;
   color: #ffffff;
   text-align: left;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: break-word;
+}
+section.agenda .speaker.point {
+  color: #81C6B6;
 }
 @media (max-width: 991px) {
   section.agenda .speaker {
@@ -1904,8 +1928,6 @@ footer .footer-org-logo-3 img {
   pointer-events: none;
   transform: translateY(8px);
   transition: opacity 0.3s, transform 0.3s;
-  text-align: center;
-  line-height: 1.2;
 }
 .fixed-register-btn.visible {
   opacity: 1;
